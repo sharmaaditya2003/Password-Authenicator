@@ -1,0 +1,23 @@
+import java.util.*;
+public class safe_input {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in= new Scanner (System.in);
+		System.out.println("Enter Email id: ");
+		String email= in.nextLine();
+		System.out.println("Enter Password: ");
+		String pass= in.nextLine();
+		
+		if(email.equals("adityasharmajng@gmail.com") && pass.equals("Sharma1234")) {
+			System.out.println("Login Successful");
+			System.out.println("***************WELCOME***************");
+			
+		}
+		else {
+			System.out.println("Invalid UserId or Password");
+			return;
+		}
+	}
+
+}
